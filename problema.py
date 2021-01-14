@@ -1,4 +1,9 @@
-with open("input.txt","r") as f:
+#sa se scrie cate litere mari sunt
+#in fisierul litereA.txt,cate litere mici in litereB
+#in cifre.txt cate cifre sunt
+#si cate caractere in caractere.txt
+
+with open("input.txt","r") as f: 
     sir=f.readline()
 nrm=0
 nr=0
